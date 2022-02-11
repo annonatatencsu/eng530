@@ -1,0 +1,68 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/displayofheraldry//DisplayofHeraldry0153",
+  "height": 6505,
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
+      ]
+    }
+  ],
+  "protocol": "http://iiif.io/api/image",
+  "sizes": [
+    {
+      "height": 407,
+      "width": 243
+    },
+    {
+      "height": 203,
+      "width": 122
+    },
+    {
+      "height": 102,
+      "width": 61
+    },
+    {
+      "height": 51,
+      "width": 30
+    },
+    {
+      "height": 25,
+      "width": 15
+    },
+    {
+      "height": 13,
+      "width": 8
+    },
+    {
+      "height": 6,
+      "width": 4
+    },
+    {
+      "height": 3,
+      "width": 2
+    },
+    {
+      "height": 2,
+      "width": 1
+    }
+  ],
+  "tiles": [
+    {
+      "height": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "width": 512
+    }
+  ],
+  "width": 3894
+}
