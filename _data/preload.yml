@@ -2,5 +2,4 @@ images: []
 manifests:
 - ''
 settings:
-  tempuser: ''
   viewer: default
