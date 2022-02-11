@@ -2,5 +2,5 @@ images: []
 manifests:
 - ''
 settings:
-- tempuser
-- viewer
+- tempuser: 'False'
+- viewer: default
