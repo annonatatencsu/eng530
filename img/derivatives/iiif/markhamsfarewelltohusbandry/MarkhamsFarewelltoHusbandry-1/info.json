@@ -1,7 +1,7 @@
 {
   "@context": "http://iiif.io/api/image/2/context.json",
   "@id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/markhamsfarewelltohusbandry//MarkhamsFarewelltoHusbandry-1",
-  "height": 4712,
+  "height": 4903,
   "profile": [
     "http://iiif.io/api/image/2/level0.json",
     {
@@ -16,27 +16,27 @@
   "protocol": "http://iiif.io/api/image",
   "sizes": [
     {
-      "height": 295,
-      "width": 183
+      "height": 306,
+      "width": 184
     },
     {
-      "height": 147,
+      "height": 153,
       "width": 92
     },
     {
-      "height": 74,
+      "height": 77,
       "width": 46
     },
     {
-      "height": 37,
+      "height": 38,
       "width": 23
     },
     {
-      "height": 18,
-      "width": 11
+      "height": 19,
+      "width": 12
     },
     {
-      "height": 9,
+      "height": 10,
       "width": 6
     },
     {
@@ -64,5 +64,5 @@
       "width": 512
     }
   ],
-  "width": 2934
+  "width": 2948
 }
