@@ -1,8 +1,9 @@
 ---
+layout: none
 ---
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/trinityapokalypse/manifest.json",
+  "id": "{{ '/' | absolute_url }}img/derivatives/iiif/trinityapokalypse/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -20,7 +21,7 @@
   "viewingDirection": "left-to-right",
   "items": [
     {
-      "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/trinityapokalypse/canvas/trinityapokalypse-1",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/trinityapokalypse/canvas/trinityapokalypse-1",
       "type": "Canvas",
       "label": {
         "en": [
@@ -29,7 +30,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/trinityapokalypse/TrinityApokalypse0023b/full/111,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/trinityapokalypse/TrinityApokalypse0023b/full/111,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -37,35 +38,42 @@
       "width": 7079,
       "items": [
         {
-          "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/trinityapokalypse/page/p1/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/trinityapokalypse/page/p1/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/trinityapokalypse/annotation/p0001-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/trinityapokalypse/annotation/p0001-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/trinityapokalypse/TrinityApokalypse0023b/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/trinityapokalypse/TrinityApokalypse0023b/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 10061,
                 "width": 7079,
                 "service": [
                   {
-                    "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/trinityapokalypse/TrinityApokalypse0023b",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/trinityapokalypse/TrinityApokalypse0023b",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/trinityapokalypse/canvas/trinityapokalypse-1"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/trinityapokalypse/canvas/trinityapokalypse-1"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/eng530-trinityapokalypse-1-list.json",
+          "type": "AnnotationPage",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/trinityapokalypse/canvas/trinityapokalypse-1"
         }
       ]
     },
     {
-      "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/trinityapokalypse/canvas/trinityapokalypse-2",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/trinityapokalypse/canvas/trinityapokalypse-2",
       "type": "Canvas",
       "label": {
         "en": [
@@ -74,7 +82,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/trinityapokalypse/TrinityApokalypse0024a/full/111,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/trinityapokalypse/TrinityApokalypse0024a/full/111,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -82,30 +90,37 @@
       "width": 7096,
       "items": [
         {
-          "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/trinityapokalypse/page/p2/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/trinityapokalypse/page/p2/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/trinityapokalypse/annotation/p0002-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/trinityapokalypse/annotation/p0002-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/trinityapokalypse/TrinityApokalypse0024a/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/trinityapokalypse/TrinityApokalypse0024a/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 9636,
                 "width": 7096,
                 "service": [
                   {
-                    "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/trinityapokalypse/TrinityApokalypse0024a",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/trinityapokalypse/TrinityApokalypse0024a",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/trinityapokalypse/canvas/trinityapokalypse-2"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/trinityapokalypse/canvas/trinityapokalypse-2"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/eng530-trinityapokalypse-2-list.json",
+          "type": "AnnotationPage",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/trinityapokalypse/canvas/trinityapokalypse-2"
         }
       ]
     }
