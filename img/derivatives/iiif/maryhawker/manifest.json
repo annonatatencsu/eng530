@@ -1,8 +1,9 @@
 ---
+layout: none
 ---
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/maryhawker/manifest.json",
+  "id": "{{ '/' | absolute_url }}img/derivatives/iiif/maryhawker/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -20,7 +21,7 @@
   "viewingDirection": "left-to-right",
   "items": [
     {
-      "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/maryhawker/canvas/maryhawker-1",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/maryhawker/canvas/maryhawker-1",
       "type": "Canvas",
       "label": {
         "en": [
@@ -29,7 +30,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/maryhawker/MaryHawkersRecipeBook1691WellcomeMS9304/full/126,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/maryhawker/MaryHawkersRecipeBook1691WellcomeMS9304/full/126,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -37,30 +38,37 @@
       "width": 4032,
       "items": [
         {
-          "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/maryhawker/page/p1/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/maryhawker/page/p1/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/maryhawker/annotation/p0001-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/maryhawker/annotation/p0001-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/maryhawker/MaryHawkersRecipeBook1691WellcomeMS9304/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/maryhawker/MaryHawkersRecipeBook1691WellcomeMS9304/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3024,
                 "width": 4032,
                 "service": [
                   {
-                    "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/maryhawker/MaryHawkersRecipeBook1691WellcomeMS9304",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/maryhawker/MaryHawkersRecipeBook1691WellcomeMS9304",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/maryhawker/canvas/maryhawker-1"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/maryhawker/canvas/maryhawker-1"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/eng530-maryhawker-1-list.json",
+          "type": "AnnotationPage",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/maryhawker/canvas/maryhawker-1"
         }
       ]
     }
