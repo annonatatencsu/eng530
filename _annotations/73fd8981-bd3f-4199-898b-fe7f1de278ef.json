@@ -1,0 +1,35 @@
+---
+canvas: "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/gratiandecretalsdepurgatio/canvas/gratiandecretalsdepurgatio-2"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "page2",
+            "purpose": "commenting",
+            "creator": {
+                "id": "annonatatencsu",
+                "name": "test"
+            },
+            "created": "2022-02-15T17:29:54.506Z",
+            "modified": "2022-02-15T17:29:55.083Z"
+        }
+    ],
+    "target": {
+        "source": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/gratiandecretalsdepurgatio/canvas/gratiandecretalsdepurgatio-2",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1788.1302490234375,977.0308227539062,454.0174560546875,391.15350341796875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/gratiandecretalsdepurgatio/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "73fd8981-bd3f-4199-898b-fe7f1de278ef.json",
+    "motivation": "commenting"
+}
