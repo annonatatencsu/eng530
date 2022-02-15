@@ -33,6 +33,12 @@
             "title": "",
             "description": "",
             "thumbnail": ""
+        },
+        {
+            "board": "<iiif-storyboard annotationurl='https://annonatatencsu.github.io/eng530/annotations/eng530-gratiandecretalsdepurgatio-2-list.json'></iiif-storyboard>",
+            "title": "",
+            "description": "",
+            "thumbnail": ""
         }
     ]
 }
