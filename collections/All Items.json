@@ -1,0 +1,14 @@
+---
+---
+{
+    "label": "All Items",
+    "type": "storyboardlist",
+    "items": [
+        {
+            "board": "<iiif-storyboard annotationurl='https://annonatatencsu.github.io/eng530/annotations/eng530-displayofheraldry-1-list.json'></iiif-storyboard>",
+            "title": "",
+            "description": "",
+            "thumbnail": ""
+        }
+    ]
+}
