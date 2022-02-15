@@ -1,0 +1,35 @@
+---
+canvas: "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/markhamsfarewelltohusbandry/canvas/markhamsfarewelltohusbandry-2"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "husbandry page2",
+            "purpose": "commenting",
+            "creator": {
+                "id": "annonatatencsu",
+                "name": "test"
+            },
+            "created": "2022-02-15T17:29:16.924Z",
+            "modified": "2022-02-15T17:29:17.958Z"
+        }
+    ],
+    "target": {
+        "source": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/markhamsfarewelltohusbandry/canvas/markhamsfarewelltohusbandry-2",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=397.571533203125,525.0870361328125,571.0321655273438,387.25164794921875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/markhamsfarewelltohusbandry/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "8a6bfa68-f90f-4521-a130-1f80a0a2fc36.json",
+    "motivation": "commenting"
+}
