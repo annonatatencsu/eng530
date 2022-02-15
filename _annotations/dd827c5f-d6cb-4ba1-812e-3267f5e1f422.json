@@ -1,0 +1,35 @@
+---
+canvas: "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/trinityapokalypse/canvas/trinityapokalypse-1"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "page1",
+            "purpose": "commenting",
+            "creator": {
+                "id": "annonatatencsu",
+                "name": "test"
+            },
+            "created": "2022-02-15T17:29:42.452Z",
+            "modified": "2022-02-15T17:29:43.021Z"
+        }
+    ],
+    "target": {
+        "source": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/trinityapokalypse/canvas/trinityapokalypse-1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=872.7291259765625,1468.071044921875,1023.609130859375,821.5810546875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/trinityapokalypse/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "dd827c5f-d6cb-4ba1-812e-3267f5e1f422.json",
+    "motivation": "commenting"
+}
