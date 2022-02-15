@@ -1,0 +1,35 @@
+---
+canvas: "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/displayofheraldry/canvas/displayofheraldry-1"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "test",
+            "purpose": "commenting",
+            "creator": {
+                "id": "annonatatencsu",
+                "name": "test"
+            },
+            "created": "2022-02-15T20:52:53.829Z",
+            "modified": "2022-02-15T20:52:54.213Z"
+        }
+    ],
+    "target": {
+        "source": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/displayofheraldry/canvas/displayofheraldry-1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2229.195068359375,682.9004516601562,951.719482421875,1218.8688354492188"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/displayofheraldry/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "36fe92b4-622a-4200-8e39-23fb6d62d8a9.json",
+    "motivation": "commenting"
+}
