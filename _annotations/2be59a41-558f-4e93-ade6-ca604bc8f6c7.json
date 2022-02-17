@@ -1,0 +1,35 @@
+---
+canvas: "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/displayofheraldry/canvas/displayofheraldry-1"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "I'm in love with this turnip lololol -- I want it on a sweatshirt. Also <3 the descriptions! Cool that it's seen as both a \"great reliefe to the poor\" and also something that \"may signifie a person of good disposition\" :)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "annonatatencsu",
+                "name": "lynsey_akin"
+            },
+            "created": "2022-02-17T17:11:03.736Z",
+            "modified": "2022-02-17T17:13:02.345Z"
+        }
+    ],
+    "target": {
+        "source": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/displayofheraldry/canvas/displayofheraldry-1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=737.284423828125,2619.07177734375,760.9847412109375,429.671630859375"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/displayofheraldry/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "2be59a41-558f-4e93-ade6-ca604bc8f6c7.json",
+    "motivation": "commenting"
+}
