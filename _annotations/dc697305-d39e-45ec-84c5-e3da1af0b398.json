@@ -1,0 +1,35 @@
+---
+canvas: "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/trinityapokalypse/canvas/trinityapokalypse-1"
+order: 4
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "What\u2019s up with the key? What does it open or does it symbolize something?",
+            "purpose": "commenting",
+            "creator": {
+                "id": "HanRain",
+                "name": "Mjserpas"
+            },
+            "created": "2022-02-17T17:22:55.117Z",
+            "modified": "2022-02-17T17:23:15.183Z"
+        }
+    ],
+    "target": {
+        "source": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/trinityapokalypse/canvas/trinityapokalypse-1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=4299.1796875,6240.85595703125,684.18798828125,487.73779296875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/trinityapokalypse/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "dc697305-d39e-45ec-84c5-e3da1af0b398.json",
+    "motivation": "commenting"
+}
