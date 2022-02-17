@@ -3,33 +3,44 @@ canvas: "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/displayofh
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "What were they using to color their ink and how much would  it have taken to bleed through? ",
-            "purpose": "questioning",
+            "created": "2022-02-17T17:11:27.529Z",
             "creator": {
                 "id": "annonatatencsu",
                 "name": "MackieBlack"
             },
-            "created": "2022-02-17T17:11:27.529Z",
-            "modified": "2022-02-17T17:11:46.910Z"
+            "modified": "2022-02-17T17:11:46.910Z",
+            "purpose": "questioning",
+            "type": "TextualBody",
+            "value": "What were they using to color their ink and how much would  it have taken to bleed through? "
+        },
+        {
+            "type": "TextualBody",
+            "value": "Yeah! I was having a hard time telling if this was from the previous page or the next page",
+            "purpose": "commenting",
+            "creator": {
+                "id": "annonatatencsu",
+                "name": "lynsey_akin"
+            },
+            "created": "2022-02-17T17:20:20.378Z",
+            "modified": "2022-02-17T17:20:38.148Z"
         }
     ],
+    "id": "5bea25aa-4cc8-4d98-9872-641874c859b5.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/displayofheraldry/canvas/displayofheraldry-1",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3074.969970703125,3597.112548828125,801.97412109375,450.2548828125"
-        },
         "dcterms:isPartOf": {
             "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/displayofheraldry/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3074.969970703125,3597.112548828125,801.97412109375,450.2548828125"
+        },
+        "source": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/displayofheraldry/canvas/displayofheraldry-1"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "5bea25aa-4cc8-4d98-9872-641874c859b5.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
