@@ -1,0 +1,35 @@
+---
+canvas: "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/vellumnotarial/canvas/vellumnotarial-1"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "This is written in a different medium, what is it? ",
+            "purpose": "questioning",
+            "creator": {
+                "id": "annonatatencsu",
+                "name": "MackieBlack"
+            },
+            "created": "2022-02-17T17:23:22.125Z",
+            "modified": "2022-02-17T17:23:29.923Z"
+        }
+    ],
+    "target": {
+        "source": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/vellumnotarial/canvas/vellumnotarial-1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=908.8968505859375,1842.7392578125,688.1025390625,325.546630859375"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/vellumnotarial/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "be15151d-eb3d-4c66-bb66-ef7aa9c07903.json",
+    "motivation": "commenting"
+}
