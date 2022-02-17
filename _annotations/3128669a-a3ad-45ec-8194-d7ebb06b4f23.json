@@ -1,0 +1,35 @@
+---
+canvas: "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/trinityapokalypse/canvas/trinityapokalypse-1"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "I like this critter",
+            "purpose": "commenting",
+            "creator": {
+                "id": "annonatatencsu",
+                "name": "sarahhartsell"
+            },
+            "created": "2022-02-17T17:22:16.191Z",
+            "modified": "2022-02-17T17:22:18.534Z"
+        }
+    ],
+    "target": {
+        "source": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/trinityapokalypse/canvas/trinityapokalypse-1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2354.739990234375,6297.90283203125,1390.7236328125,1628.0478515625"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/trinityapokalypse/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "3128669a-a3ad-45ec-8194-d7ebb06b4f23.json",
+    "motivation": "commenting"
+}
