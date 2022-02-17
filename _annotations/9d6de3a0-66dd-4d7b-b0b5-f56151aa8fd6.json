@@ -1,0 +1,35 @@
+---
+canvas: "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/displayofheraldry/canvas/displayofheraldry-1"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Who knew that turnips were such a sign of good character?",
+            "purpose": "commenting",
+            "creator": {
+                "id": "annonatatencsu",
+                "name": "dmpalko"
+            },
+            "created": "2022-02-17T17:11:05.018Z",
+            "modified": "2022-02-17T17:11:15.530Z"
+        }
+    ],
+    "target": {
+        "source": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/displayofheraldry/canvas/displayofheraldry-1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1564.115234375,2583.41650390625,2268.259521484375,213.98681640625"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/displayofheraldry/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "9d6de3a0-66dd-4d7b-b0b5-f56151aa8fd6.json",
+    "motivation": "commenting"
+}
