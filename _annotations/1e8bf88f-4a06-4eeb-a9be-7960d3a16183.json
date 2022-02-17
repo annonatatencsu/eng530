@@ -1,0 +1,34 @@
+---
+canvas: "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/maryhawker/canvas/maryhawker-1"
+order: 9
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Numbers?",
+            "purpose": "commenting",
+            "creator": {
+                "id": "annonatatencsu",
+                "name": "Mtharmon"
+            },
+            "created": "2022-02-17T17:19:24.274Z"
+        }
+    ],
+    "target": {
+        "source": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/maryhawker/canvas/maryhawker-1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2226.724853515625,2491.787353515625,1182.55908203125,237.0830078125"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/maryhawker/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "1e8bf88f-4a06-4eeb-a9be-7960d3a16183.json",
+    "motivation": "commenting"
+}
