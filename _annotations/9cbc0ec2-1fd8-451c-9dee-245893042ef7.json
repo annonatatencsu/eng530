@@ -1,0 +1,35 @@
+---
+canvas: "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/displayofheraldry/canvas/displayofheraldry-3"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "This is disturbing and also I love it. What's up with the tail...? Were people thinking birds had similar features to dragons (hence the wings) and if so, it's a cool precursor to the dinosaur -> bird connections",
+            "purpose": "commenting",
+            "creator": {
+                "id": "annonatatencsu",
+                "name": "lynsey_akin"
+            },
+            "created": "2022-02-17T17:22:17.130Z",
+            "modified": "2022-02-17T17:23:19.590Z"
+        }
+    ],
+    "target": {
+        "source": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/displayofheraldry/canvas/displayofheraldry-3",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=589.5588989257812,4993.62451171875,1089.5132446289062,1030.30029296875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/displayofheraldry/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "9cbc0ec2-1fd8-451c-9dee-245893042ef7.json",
+    "motivation": "commenting"
+}
