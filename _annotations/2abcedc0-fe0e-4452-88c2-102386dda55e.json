@@ -1,0 +1,35 @@
+---
+canvas: "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/maryhawker/canvas/maryhawker-1"
+order: 11
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Sparrowgrass means asparagus. It is very common for foreign words, when adopted into English, to be made to sound more like common English words. Other examples from the time\u2026 eggcorn for acorn, lanthorn for lantern, Jerusalem artichoke for sunflower tuber... from Latin",
+            "purpose": "commenting",
+            "creator": {
+                "id": "annonatatencsu",
+                "name": "ThomasLong"
+            },
+            "created": "2022-02-17T17:21:50.943Z",
+            "modified": "2022-02-17T17:25:13.947Z"
+        }
+    ],
+    "target": {
+        "source": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/maryhawker/canvas/maryhawker-1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2754.09814453125,1955.4097900390625,424.13134765625,99.1475830078125"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/maryhawker/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "2abcedc0-fe0e-4452-88c2-102386dda55e.json",
+    "motivation": "commenting"
+}
