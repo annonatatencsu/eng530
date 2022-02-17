@@ -1,0 +1,34 @@
+---
+canvas: "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/vellumnotarial/canvas/vellumnotarial-1"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Would this have been a seal? Has it just decayed or fallen off over time?",
+            "purpose": "commenting",
+            "creator": {
+                "id": "annonatatencsu",
+                "name": "sarahhartsell"
+            },
+            "created": "2022-02-17T17:18:32.012Z",
+            "modified": "2022-02-17T17:18:48.833Z"
+        }
+    ],
+    "target": {
+        "source": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/vellumnotarial/canvas/vellumnotarial-1",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"3663.8028564453125\" cy=\"1659.5203857421875\" r=\"484.91426509200926\"></circle></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/vellumnotarial/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "62071c06-53e0-4e64-b753-851cc5cb114e.json",
+    "motivation": "commenting"
+}
