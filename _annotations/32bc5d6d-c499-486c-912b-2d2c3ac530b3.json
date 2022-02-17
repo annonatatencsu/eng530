@@ -1,0 +1,35 @@
+---
+canvas: "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/trinityapokalypse/canvas/trinityapokalypse-1"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Is the monster good if it eats the demons?",
+            "purpose": "commenting",
+            "creator": {
+                "id": "annonatatencsu",
+                "name": "ThomasLong"
+            },
+            "created": "2022-02-17T17:16:19.710Z",
+            "modified": "2022-02-17T17:16:42.792Z"
+        }
+    ],
+    "target": {
+        "source": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/trinityapokalypse/canvas/trinityapokalypse-1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1793.9476318359375,2753.4267578125,1531.2044677734375,553.382568359375"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/trinityapokalypse/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "32bc5d6d-c499-486c-912b-2d2c3ac530b3.json",
+    "motivation": "commenting"
+}
