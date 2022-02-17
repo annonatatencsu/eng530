@@ -17,15 +17,26 @@ order: 1
             "value": "Seems like a lame coat of arms to choose tbh, of all the vegetables even?"
         },
         {
-            "type": "TextualBody",
-            "value": "Agreed",
-            "purpose": "commenting",
+            "created": "2022-02-17T17:21:01.243Z",
             "creator": {
                 "id": "annonatatencsu",
                 "name": "Madisonlawson"
             },
-            "created": "2022-02-17T17:21:01.243Z",
-            "modified": "2022-02-17T17:21:02.264Z"
+            "modified": "2022-02-17T17:21:02.264Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Agreed"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Lol",
+            "purpose": "replying",
+            "creator": {
+                "id": "annonatatencsu",
+                "name": "Brooke"
+            },
+            "created": "2022-02-17T17:23:15.588Z",
+            "modified": "2022-02-17T17:23:15.860Z"
         }
     ],
     "id": "3e951e13-58f4-45fa-9084-aa21c4dbcfec.json",
