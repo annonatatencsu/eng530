@@ -1,0 +1,35 @@
+---
+canvas: "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/displayofheraldry/canvas/displayofheraldry-3"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "This is so cute. Dragons so hot that they have to gulp air because water won't cool them off omg",
+            "purpose": "commenting",
+            "creator": {
+                "id": "annonatatencsu",
+                "name": "lynsey_akin"
+            },
+            "created": "2022-02-17T17:21:46.176Z",
+            "modified": "2022-02-17T17:22:04.429Z"
+        }
+    ],
+    "target": {
+        "source": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/displayofheraldry/canvas/displayofheraldry-3",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=728.7086791992188,4508.08056640625,3176.7598266601562,257.5751953125"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/displayofheraldry/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "2c16d244-8b0d-44eb-adf0-cfd54690cb23.json",
+    "motivation": "commenting"
+}
