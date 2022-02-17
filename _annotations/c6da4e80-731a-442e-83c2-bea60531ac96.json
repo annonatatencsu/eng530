@@ -1,0 +1,35 @@
+---
+canvas: "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/maryhawker/canvas/maryhawker-1"
+order: 7
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "What is this ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "annonatatencsu",
+                "name": "Madisonlawson"
+            },
+            "created": "2022-02-17T17:18:21.976Z",
+            "modified": "2022-02-17T17:18:24.999Z"
+        }
+    ],
+    "target": {
+        "source": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/maryhawker/canvas/maryhawker-1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2218.221923828125,2472.880126953125,1138.8544921875,301.73193359375"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/maryhawker/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "c6da4e80-731a-442e-83c2-bea60531ac96.json",
+    "motivation": "commenting"
+}
