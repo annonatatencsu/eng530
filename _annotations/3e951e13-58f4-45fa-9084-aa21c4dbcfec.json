@@ -3,33 +3,44 @@ canvas: "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/displayofh
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Seems like a lame coat of arms to choose tbh, of all the vegetables even?",
-            "purpose": "commenting",
+            "created": "2022-02-17T17:16:07.798Z",
             "creator": {
                 "id": "annonatatencsu",
                 "name": "steste"
             },
-            "created": "2022-02-17T17:16:07.798Z",
-            "modified": "2022-02-17T17:16:23.337Z"
+            "modified": "2022-02-17T17:16:23.337Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Seems like a lame coat of arms to choose tbh, of all the vegetables even?"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Agreed",
+            "purpose": "commenting",
+            "creator": {
+                "id": "annonatatencsu",
+                "name": "Madisonlawson"
+            },
+            "created": "2022-02-17T17:21:01.243Z",
+            "modified": "2022-02-17T17:21:02.264Z"
         }
     ],
+    "id": "3e951e13-58f4-45fa-9084-aa21c4dbcfec.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/displayofheraldry/canvas/displayofheraldry-1",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=195.12832641601562,2288.899169921875,354.5389099121094,100.10498046875"
-        },
         "dcterms:isPartOf": {
             "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/displayofheraldry/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=195.12832641601562,2288.899169921875,354.5389099121094,100.10498046875"
+        },
+        "source": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/displayofheraldry/canvas/displayofheraldry-1"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "3e951e13-58f4-45fa-9084-aa21c4dbcfec.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
