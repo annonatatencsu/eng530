@@ -1,0 +1,35 @@
+---
+canvas: "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/maryhawker/canvas/maryhawker-1"
+order: 12
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Is this a menu for one meal, a meal prep list, or a list of options that would have been picked from?",
+            "purpose": "commenting",
+            "creator": {
+                "id": "annonatatencsu",
+                "name": "heathermboggess"
+            },
+            "created": "2022-02-17T17:23:02.102Z",
+            "modified": "2022-02-17T17:23:30.026Z"
+        }
+    ],
+    "target": {
+        "source": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/maryhawker/canvas/maryhawker-1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2334.585205078125,715.0243530273438,1200.58544921875,40.97564697265625"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/maryhawker/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "59b03438-4f9a-4a32-93ec-278ac3abfa5a.json",
+    "motivation": "commenting"
+}
