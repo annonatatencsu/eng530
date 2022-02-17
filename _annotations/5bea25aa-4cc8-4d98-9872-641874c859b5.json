@@ -1,0 +1,35 @@
+---
+canvas: "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/displayofheraldry/canvas/displayofheraldry-1"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "What were they using to color their ink and how much would  it have taken to bleed through? ",
+            "purpose": "questioning",
+            "creator": {
+                "id": "annonatatencsu",
+                "name": "MackieBlack"
+            },
+            "created": "2022-02-17T17:11:27.529Z",
+            "modified": "2022-02-17T17:11:46.910Z"
+        }
+    ],
+    "target": {
+        "source": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/displayofheraldry/canvas/displayofheraldry-1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=3074.969970703125,3597.112548828125,801.97412109375,450.2548828125"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/displayofheraldry/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "5bea25aa-4cc8-4d98-9872-641874c859b5.json",
+    "motivation": "commenting"
+}
