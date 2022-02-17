@@ -1,0 +1,35 @@
+---
+canvas: "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/markhamsfarewelltohusbandry/canvas/markhamsfarewelltohusbandry-1"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "The \"violent and extreme labour\" is an interesting way to describe plowing.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "annonatatencsu",
+                "name": "nicklongerbeam"
+            },
+            "created": "2022-02-17T17:11:30.493Z",
+            "modified": "2022-02-17T17:12:33.209Z"
+        }
+    ],
+    "target": {
+        "source": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/markhamsfarewelltohusbandry/canvas/markhamsfarewelltohusbandry-1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2364.648681640625,473.0466613769531,344.051025390625,443.9370422363281"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/markhamsfarewelltohusbandry/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "0d1eb79d-6bd8-46ae-9f32-4a6ac2ccf511.json",
+    "motivation": "commenting"
+}
