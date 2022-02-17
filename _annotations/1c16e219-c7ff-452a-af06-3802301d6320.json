@@ -1,0 +1,35 @@
+---
+canvas: "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/trinityapokalypse/canvas/trinityapokalypse-1"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "You can see that the blue paint has chipped here. Is it from lapis? In any case, it shows the blue paint is less durable than the other colors",
+            "purpose": "commenting",
+            "creator": {
+                "id": "annonatatencsu",
+                "name": "ThomasLong"
+            },
+            "created": "2022-02-17T17:17:02.601Z",
+            "modified": "2022-02-17T17:18:28.014Z"
+        }
+    ],
+    "target": {
+        "source": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/trinityapokalypse/canvas/trinityapokalypse-1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2810.83740234375,6224.04931640625,822.01513671875,478.166015625"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/trinityapokalypse/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "1c16e219-c7ff-452a-af06-3802301d6320.json",
+    "motivation": "commenting"
+}
