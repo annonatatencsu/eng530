@@ -1,0 +1,35 @@
+---
+canvas: "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/displayofheraldry/canvas/displayofheraldry-1"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Was turnips popular in this region?",
+            "purpose": "commenting",
+            "creator": {
+                "id": "HanRain",
+                "name": "Mjserpas"
+            },
+            "created": "2022-02-17T17:13:11.589Z",
+            "modified": "2022-02-17T17:13:27.084Z"
+        }
+    ],
+    "target": {
+        "source": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/displayofheraldry/canvas/displayofheraldry-1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=684.7722778320312,2544.849365234375,784.8060913085938,605.91650390625"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/displayofheraldry/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "f0bee994-06b1-4501-86c2-1cb8e7a8529b.json",
+    "motivation": "commenting"
+}
