@@ -1,0 +1,35 @@
+---
+canvas: "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/maryhawker/canvas/maryhawker-1"
+order: 4
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "the 2nc course\n1 A dish of green pease\n2 A dish of turkeys\n3 A dich of ?sparowgrace?\n4 A dich of tarts and custards\n5 A dish of Artichocks\n6 A dish of Custards",
+            "purpose": "supplementing",
+            "creator": {
+                "id": "annonatatencsu",
+                "name": "sarahhartsell"
+            },
+            "created": "2022-02-17T17:15:27.496Z",
+            "modified": "2022-02-17T17:16:46.203Z"
+        }
+    ],
+    "target": {
+        "source": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/maryhawker/canvas/maryhawker-1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2205.846435546875,1657.9625244140625,1003.61181640625,736.4908447265625"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/maryhawker/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "2def8422-a70a-4ec5-8748-75cd593cb039.json",
+    "motivation": "commenting"
+}
