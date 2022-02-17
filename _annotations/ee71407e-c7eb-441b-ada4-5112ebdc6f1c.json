@@ -1,0 +1,35 @@
+---
+canvas: "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/displayofheraldry/canvas/displayofheraldry-1"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "What does this mean ? (I wish I knew Latin)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "HanRain",
+                "name": "Mjserpas"
+            },
+            "created": "2022-02-17T17:14:18.121Z",
+            "modified": "2022-02-17T17:14:47.730Z"
+        }
+    ],
+    "target": {
+        "source": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/displayofheraldry/canvas/displayofheraldry-1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2531.375,3295.031494140625,981.007568359375,167.348388671875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://annonatatencsu.github.io/eng530/img/derivatives/iiif/displayofheraldry/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "ee71407e-c7eb-441b-ada4-5112ebdc6f1c.json",
+    "motivation": "commenting"
+}
