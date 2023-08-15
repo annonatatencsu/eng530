@@ -1,7 +1,8 @@
 images:
 - ''
-manifests:
 - ''
 settings:
   tempuser: 'True'
   viewer: default
+  widgets: comment-with-purpose, tag, geotagging
+version: '2.0'
